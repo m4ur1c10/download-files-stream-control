@@ -1,6 +1,6 @@
 {
 	"url": "http://localhost:8000/",
-	"kbs": 60,
+	"kbps": 60,
 	"interval": 2000,
 	"extTempFile": "afe",
 	"suffixTempFile": "part",

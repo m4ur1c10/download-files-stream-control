@@ -10,7 +10,7 @@ $config = json_decode(file_get_contents("config.json"));
 
 $urlServer = $config->url;
 //KB/S
-$kb = (1024 * ($config->kbs * ($config->interval / 1000)));
+$kb = (1024 * ($config->kbps * ($config->interval / 1000)));
 
 /* FIM CONFIG */
 
